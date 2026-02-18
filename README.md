@@ -136,7 +136,3 @@ source/
 ## Contributing
 
 Contributions are welcome! Feel free to open issues or submit pull requests.
-
-## Contact
-
-If you have any questions, comments, or feedback, feel free to email me directly at [hugh@octonary.com](mailto:hugh@octonary.com).
