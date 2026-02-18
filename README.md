@@ -1,4 +1,4 @@
-# Claude Code Explorer
+# Claude Conversation Explorer
 
 A terminal UI for browsing and searching your [Claude Code](https://claude.ai/code) conversation history. Navigate sessions across all your projects, search by keyword, and read full conversation transcripts — all without leaving your terminal.
 
@@ -15,12 +15,12 @@ A terminal UI for browsing and searching your [Claude Code](https://claude.ai/co
 
 ## How It Works
 
-Claude Code Explorer reads directly from the local Claude Code data stored in `~/.claude/`. It pulls from two sources:
+Claude Conversation Explorer reads directly from the local Claude Code data stored in `~/.claude/`. It pulls from two sources:
 
 1. **Project session files** — `~/.claude/projects/<project>/sessions-index.json` and individual `.jsonl` session logs
 2. **Global history** — `~/.claude/history.jsonl`, where entries without a session ID are grouped into synthetic sessions using 2-hour time gaps
 
-Everything is read-only. Claude Code Explorer never writes to or modifies your Claude Code data.
+Everything is read-only. Claude Conversation Explorer never writes to or modifies your Claude Code data.
 
 ## Requirements
 
@@ -31,8 +31,8 @@ Everything is read-only. Claude Code Explorer never writes to or modifies your C
 
 ```bash
 # Clone the repository
-git clone https://github.com/octonary/claude-code-explorer.git
-cd claude-code-explorer
+git clone https://github.com/octonary/claude-conversation-explorer.git
+cd claude-conversation-explorer
 
 # Install dependencies
 npm install
@@ -44,16 +44,16 @@ npm start
 ## Usage
 
 ```
-$ claude-code-explorer
+$ claude-conversation-explorer
 
 Options
   --project, -p  Filter to a specific project path
   --search, -s   Initial search query
 
 Examples
-  $ claude-code-explorer
-  $ claude-code-explorer --project /Users/me/my-project
-  $ claude-code-explorer --search "auth bug"
+  $ claude-conversation-explorer
+  $ claude-conversation-explorer --project /Users/me/my-project
+  $ claude-conversation-explorer --search "auth bug"
 ```
 
 ### Keyboard Controls
@@ -74,8 +74,8 @@ Examples
 ### Setup
 
 ```bash
-git clone https://github.com/octonary/claude-code-explorer.git
-cd claude-code-explorer
+git clone https://github.com/octonary/claude-conversation-explorer.git
+cd claude-conversation-explorer
 npm install
 ```
 

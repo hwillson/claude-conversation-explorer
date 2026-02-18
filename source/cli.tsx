@@ -6,16 +6,16 @@ import {App} from './app.js';
 const cli = meow(
 	`
 	Usage
-	  $ claude-code-explorer
+	  $ claude-conversation-explorer
 
 	Options
 	  --project, -p  Filter to a specific project path
 	  --search, -s   Initial search query
 
 	Examples
-	  $ claude-code-explorer
-	  $ claude-code-explorer --project /Users/me/my-project
-	  $ claude-code-explorer --search "auth bug"
+	  $ claude-conversation-explorer
+	  $ claude-conversation-explorer --project /Users/me/my-project
+	  $ claude-conversation-explorer --search "auth bug"
 `,
 	{
 		importMeta: import.meta,

@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Claude Code Explorer is a terminal UI (TUI) application for browsing and searching Claude Code conversation sessions. It reads data from `~/.claude/` (history and per-project session files) and renders a two-pane interface in the terminal using Ink (React for CLI).
+Claude Conversation Explorer is a terminal UI (TUI) application for browsing and searching Claude Code conversation sessions. It reads data from `~/.claude/` (history and per-project session files) and renders a two-pane interface in the terminal using Ink (React for CLI).
 
 ## Commands
 

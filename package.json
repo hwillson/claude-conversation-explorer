@@ -1,10 +1,10 @@
 {
-  "name": "claude-code-explorer",
+  "name": "claude-conversation-explorer",
   "version": "0.1.0",
   "description": "A conversation browser for Claude Code sessions",
   "type": "module",
   "bin": {
-    "claude-code-explorer": "source/cli.tsx"
+    "claude-conversation-explorer": "source/cli.tsx"
   },
   "scripts": {
     "start": "tsx source/cli.tsx",
