@@ -1,6 +1,6 @@
 # Claude Conversation Explorer
 
-A terminal UI for browsing and searching your [Claude Code](https://claude.ai/code) conversation history. Navigate sessions across all your projects, search by keyword, and read full conversation transcripts — all without leaving your terminal.
+A terminal UI for browsing and searching your [Claude Code](https://claude.ai/code) conversation history. Navigate sessions across all your projects, search by keyword, and read full conversation transcripts, all without leaving your terminal.
 
 ![Terminal UI](https://img.shields.io/badge/interface-terminal-brightgreen) ![TypeScript](https://img.shields.io/badge/language-TypeScript-blue) ![License](https://img.shields.io/badge/license-MIT-yellow)
 
